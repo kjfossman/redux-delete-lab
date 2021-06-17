@@ -13,7 +13,6 @@ export default function manageBand(state = {
 
 
     case 'DELETE_BAND':
-      debugger
       const bands = state.bands.filter(band => band.id !== action.payload)
       return { bands }
 
